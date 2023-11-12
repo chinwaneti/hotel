@@ -1,0 +1,21 @@
+/*  */
+  
+  @media (min-width: 640px) {
+    .map-container {
+      /* flex-direction: row; */
+      width: 90%;
+    }
+  
+    /* .map {
+      flex: 1;
+    } */
+  
+    .form {
+      /* display: block; */
+      flex: 1;
+      padding: 20px;
+      background-color: #f8f8f8;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  

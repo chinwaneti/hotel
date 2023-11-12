@@ -1,0 +1,260 @@
+
+
+/* Small screen styles */
+@media screen and (max-width: 640px) {
+    .card {
+        width: 100%;
+        border: 1px solid #ddd;
+        margin-top: 50px;
+        background-color: rgb(14, 133, 133);
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .sit {
+        margin-right: 40px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .cards {
+        width: 100%;
+        border: 1px solid #ddd;
+        margin-top: 50px;
+        background-color: #fff;
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cardss {
+        width: 100%;
+        border: 1px solid #ddd;
+        /* margin-top: 50px; */
+        background-color: #fff;
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-description {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .cart-button {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #70c2f8;
+        margin-top: 40px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+    .card-imgs {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card-contents {
+        padding-top: 15px;
+        padding-left: 0;
+        color: #0E8585;
+
+    }
+
+    .card-titles {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 30px;
+        color: #0E8585;
+
+    }
+
+    .card-descriptions {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #0E8585;
+
+    }
+
+    .cart-buttons {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #0E8585;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+    .cart-buttonss {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #0E8585;
+        margin-top: 40px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        margin-bottom: 30px;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+}
+
+/* Add more styles as needed */
+@media screen and (max-width: 940px) {
+    .card {
+        width: 100%;
+        border: 1px solid #ddd;
+        margin-top: 50px;
+        background-color: rgb(14, 133, 133);
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cards {
+        width: 100%;
+        border: 1px solid #ddd;
+        margin-top: 50px;
+        background-color: #fff;
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cardss {
+        width: 100%;
+        border: 1px solid #ddd;
+        /* margin-top: 50px; */
+        background-color: #fff;
+        /* border-radius: 8px; */
+        overflow: hidden;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-description {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .cart-button {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #70c2f8;
+        margin-top: 40px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+    .card-imgs {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card-contents {
+        padding-top: 15px;
+        padding-left: 0;
+        color: #0E8585;
+
+    }
+
+    .card-titles {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 30px;
+        color: #0E8585;
+
+    }
+
+    .card-descriptions {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #0E8585;
+
+    }
+
+    .cart-buttons {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #0E8585;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+    .cart-buttonss {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #0E8585;
+        margin-top: 40px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        margin-bottom: 30px;
+        /* border-radius: 5px; */
+        cursor: pointer;
+    }
+}
+
+/* Add more styles as needed */
