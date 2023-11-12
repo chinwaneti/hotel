@@ -22,7 +22,7 @@ export default function Contact() {
         <div className=' '>
         <div><p className='font-bold text-3xl  py-10'>Location</p><p className='uppercase'>23 Road, T close, Festac, Lagos, Nigeria
 </p></div>
-        <div><p className='font-bold text-3xl py-10 mt-20'>Hours</p><p>TUE - SUN : 12PM - 4PM AND 6PM - 10.30PM</p></div></div>
+        <div><p className='font-bold text-3xl py-10 mt-10'>Hours</p><p>TUE - SUN : 12PM - 4PM AND 6PM - 10.30PM</p></div></div>
         <div className='md:border-l-2'><p className='font-bold text-3xl py-10'>Contact</p><p>INQUIRIES: +234 813 310 7964 EMAIL: CHIDINMANWANETI.CN@GMAIL.COM</p></div>
       </div>
 

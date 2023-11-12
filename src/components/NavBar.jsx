@@ -49,6 +49,9 @@ export default function NavBar() {
         <NavLink to="/menu" className="hover:text-gray-300 cursor-pointer">
           Menu
         </NavLink>
+        <NavLink to="/privateRoute" className="hover:text-gray-300 cursor-pointer">
+          Reserve
+        </NavLink>
         <NavLink to="/about" className="hover:text-gray-300 hidden sm:block cursor-pointer nav-link">
           About
         </NavLink>

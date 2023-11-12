@@ -12,6 +12,9 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 import Lounge from './components/Lounge';
+import Dashboard from './components/ReservationPage';
+import ReservationPage from './components/ReservationPage';
+// import { Dashboard } from './components/Dashboard';
 // import Header from './components/Header';
 
 
@@ -27,11 +30,13 @@ export default function App() {
             <Route path="/signUp" element={<SignUp />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
+            <Route path="/reservationPage" element={<ReservationPage />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/exchange" element={<PrivateRoute />} />
+            <Route path="/privateRoute" element={<PrivateRoute />} />
             <Route path="/navbar" element={<NavBar />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/lounge" element={<Lounge />} />
+            {/* <Route path="/lounge" element={<Dashboard />} /> */}
           </Routes>
         </AuthProvider>
       </BrowserRouter>

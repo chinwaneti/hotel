@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { motion } from 'framer-motion';
-import { useAuth } from './AuthContext'; // Import the useAuth hook
+// import { useAuth } from './AuthContext'; // Import the useAuth hook
 // import { auth } from '../firebase';
 import { auth } from '../firebase';
 
@@ -11,7 +11,7 @@ function SignIn() {
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const router = useNavigate();
-  const { user } = useAuth(); // Use the useAuth hook
+  // const { user } = useAuth(); // Use the useAuth hook
 
   const handleSignIn = (e) => {
     e.preventDefault();
@@ -30,14 +30,12 @@ function SignIn() {
   };
 
   // Redirect to Main if user is already authenticated
-  if (user) {
-    router('/Main');
-  }
+
 
 
   return (
     <div className='relative h-screen'>
-      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-[#082c64] transition-opacity duration-300 ease-in-out">
+      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-cyan-900 transition-opacity duration-300 ease-in-out">
       <div className='fixed top-16 flex text-white font-extrabold text-4xl'>
         <motion.div
           initial={{ x: -1000 }}
@@ -46,7 +44,7 @@ function SignIn() {
         >
           <span className='flex items-center space-x-2'>
             <img src="https://cdn-icons-png.flaticon.com/128/7059/7059470.png?ga=GA1.1.1685298518.1695204527&track=ais" alt="" className='w-10 h-10' />
-            <span>With</span>
+            <span>Chid</span>
           </span>
         </motion.div>
         <motion.div
@@ -54,7 +52,7 @@ function SignIn() {
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
         >
-          Bloom
+          inma
         </motion.div>
 
       </div>
@@ -91,7 +89,7 @@ function SignIn() {
             {errorMessage && <p className="text-red-600">{errorMessage}</p>}
           </div>
           <button
-            className="bg-[#236fdb] text-white w-full py-2 rounded-lg hover:bg-[#082c64] transition duration-300 ease-in-out"
+            className="bg-cyan-900 text-white w-full py-2 rounded-lg hover:bg-cyan-600 transition duration-300 ease-in-out"
             onClick={handleSignIn}
           >
             Sign In

@@ -7,7 +7,7 @@ export default function Welcome() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router('/SignIn'); // Use the router function to navigate
+      router('/signIn'); // Use the router function to navigate
     }, 4000);
   
     return () => clearTimeout(timer);
@@ -23,7 +23,7 @@ export default function Welcome() {
         >
           <span className='flex items-center space-x-2'>
             <img src="https://cdn-icons-png.flaticon.com/128/7059/7059470.png?ga=GA1.1.1685298518.1695204527&track=ais" alt="" className='w-10 h-10' />
-            <span>With</span>
+            <span>Chid</span>
           </span>
         </motion.div>
         <motion.div
@@ -31,7 +31,7 @@ export default function Welcome() {
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
         >
-          Bloom
+          inma
         </motion.div>
       </div>
     </div>
