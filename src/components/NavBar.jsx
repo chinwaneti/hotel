@@ -28,10 +28,14 @@ export default function NavBar() {
   const { logout } = useAuth();
   const history = useNavigate();
 
-  const handleLogout = () => {
-    logout();
-    history('/SignIn');
-  };
+  const handleLogout = async () => {
+    try {
+      await logout(); // Use the logout function from useAuth
+      console.log('User logged out');
+       history('/signIn'); // Redirect to the home page after logout
+    } catch (error) {
+      console.error('Error logging out:', error);
+    }}
 
   return (
     <nav className="fixed w-full bg-white top-0  z-50 p-4 text-cyan-700 flex justify-between items-center">
